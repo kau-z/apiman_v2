@@ -1,7 +1,53 @@
-node_modules/
+# Laravel
+
+/vendor/
+/node_modules/
+/public/build/
+/public/hot/
+/public/storage/
+/storage/*.key
+/storage/pail
+
+# Environment files
+
 .env
 .env.*
-dist/
-build/
-.vscode/
+!.env.example
+
+# Logs
+
 *.log
+
+# Laravel generated/cache files
+
+.phpunit.result.cache
+.phpunit.cache
+bootstrap/cache/*.php
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/logs/*
+
+# IDE
+
+.idea/
+.vscode/
+.fleet/
+.phpactor.json
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Node
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage
+
+coverage/
+.nyc_output/
